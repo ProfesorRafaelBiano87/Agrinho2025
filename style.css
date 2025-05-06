@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/fundo\ tela.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .logo-esquerdo, .logo-direito {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .titulo {
+    text-align: center;
+  }
+  
+  .titulo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .titulo p {
+    font-size: 18px;
+    color: #666;
+  }
+
+  main p {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  
+  .noticias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .noticia {
+    margin: 20px;
+    width: calc(33.33% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .noticia img {
+    width: 100%;    
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .noticia h2 {
+    text-align: center;
+    font-size: 45px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa a fonte em negrito */
+    color: #337ab7; /* Define a cor da fonte */
+    margin-bottom: 10px; /* Adiciona um espaçamento entre o título e o texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao texto */
+  }
+  
+  .noticia p {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 2.5;
+    color: #050505;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    text-indent: 20px;
+  }
+  
+  
+  footer {
+    margin-top: auto;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  
